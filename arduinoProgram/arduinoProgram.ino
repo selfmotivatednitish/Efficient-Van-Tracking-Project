@@ -7,6 +7,7 @@ static const uint32_t GPSBaud = 9600;
 TinyGPSPlus gps;
 SoftwareSerial ss(RXPin, TXPin);
 
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
